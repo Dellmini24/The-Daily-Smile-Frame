@@ -490,8 +490,8 @@ const items = [
 "Day 365: Quote — “Here’s to another year of surprises.”"
 ];
 
-// Starte date is December 3rd, 2025
-const startDate = new Date("2025-12-03T00:00:00");
+// Start date is December 2nd, 2025
+const startDate = new Date("2025-12-02T00:00:00");
 const today = new Date();
 const diffDays = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
 const index = ((diffDays % items.length) + items.length) % items.length;
